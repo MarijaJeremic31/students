@@ -1,0 +1,19 @@
+.selected{
+  background: red;
+  color: white;
+  padding: 5px;
+}
+.students{
+  margin: 4px;
+  list-style-type: none;
+  width: 300px;
+}
+.students li{
+  cursor: pointer;
+  background-color: light-blue;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.students li:hover{
+  background-color: green;
+}
