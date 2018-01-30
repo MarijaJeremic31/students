@@ -1,0 +1,20 @@
+<div>
+  <ul class="students">
+    <li *ngFor="let student of students">
+      <span> {{ student.id }}</span> {{ student.name }}
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+<div class="">
+  <h2>{{ student.name }} details:</h2>
+  <div class="">{{student.id}}</div>
+  <div>
+    <input type="text"[(ngModel)]="student.name">
+    {{ student.name}}</div>
+
+</div>
