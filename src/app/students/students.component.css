@@ -21,5 +21,7 @@
 .students li:hover{
   background-color: green;
   color: white;
+  padding-left: 10px;
   
+
 }
