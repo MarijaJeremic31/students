@@ -6,7 +6,11 @@
 .students{
   margin: 4px;
   list-style-type: none;
-  width: 300px;
+  width: 250px;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .students li{
   cursor: pointer;
@@ -16,4 +20,6 @@
 }
 .students li:hover{
   background-color: green;
+  color: white;
+  
 }

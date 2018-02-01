@@ -1,0 +1,9 @@
+<div *ngIf='prosledjeni'>
+  <h2> Details:<br>{{ prosledjeni.name }}</h2>
+  <h3> Gender:<br>{{ prosledjeni.gender }}</h3>
+  <div> Number:<br>{{prosledjeni.id}}</div>
+  <h3>Description:<br>{{ prosledjeni.description }} </h3>
+  <div>
+    <input type="text"[(ngModel)]="prosledjeni.name">
+    {{ prosledjeni.name }}</div>
+</div>
