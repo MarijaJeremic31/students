@@ -12,10 +12,12 @@ export class StudentsComponent implements OnInit {
   students = STUDENTS;
   selectedStudent: Student;
 
-   student: Student = {
-    id: 1,
-    name: 'Petar Petrovic'
-   };
+   // student: Student = {
+   //  id: 1,
+   //  name: 'Petar Petrovic',
+   //  gender: 'male',
+   //  description: 'Opis'
+   // };
   // student = 'Petar Petrovic';
 
   onSelectedStudent(student){
