@@ -34,7 +34,8 @@ export class StudentsComponent implements OnInit {
   }
 
   getStudentsFromService(): void {
-    this.students = this.mockService.getStudentsFromMockFile();
+    //this.students = this.mockService.getStudentsFromMockFile();
+    this.mockService.getStudentsFromMockFile().subscribe(students => this.students = students)
   }
 
 }

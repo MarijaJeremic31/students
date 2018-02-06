@@ -7,18 +7,27 @@ import { AppComponent } from './app.component';
 import { StudentsComponent } from './students/students.component';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
 import { MockServiceService } from './mock-service.service';
+import { MessagesComponent } from './messages/messages.component';
+import { MessageService } from './message.service';
+import { AppRouitngModule } from './routing/app-rouitng.module';
+import { HomepageComponent } from './homepage/homepage.component';
+import { NastavniciComponent } from './nastavnici/nastavnici.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentsComponent,
-    StudentDetailComponent
+    StudentDetailComponent,
+    MessagesComponent,
+    HomepageComponent,
+    NastavniciComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRouitngModule
   ],
-  providers: [ MockServiceService ],
+  providers: [ MockServiceService, MessageService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
